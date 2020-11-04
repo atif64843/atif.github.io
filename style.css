@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/*navigation bar*/
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.navbar .menu li a{
+    color: black;
+}
+.navbar .logo a{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+.menu li{
+    display: inline-block;
+}
+.navbar .maxwidth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.maxwidth{
+    padding:0 80px;
+    max-width: 1300px;
+    margin:auto;
+}
+.menu li a{
+    margin-right: 15px;
+}
+/*home section*/
+.home{
+    display: flex;
+    background-image: url(image/asparagus-2169305_1920.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+
+}
+.home .maxwidth{
+    margin:auto 0 auto 40px;
+}
+.homecontent .text1{
+    font-size: 50px;
+    font-weight:600;
+}
+.homecontent .text3{
+    font-size: 20px;
+   
+}
+.homecontent .text4{
+    font-size: 20px;
+   
+}
+.homecontent .text5 #btn{
+    background-color: salmon;
+    color:white;
+    height:50px;
+    width: 180px;
+    
+}
+.homecontent .text5{
+    display: flex;
+}
+.homecontent .text5 h3{
+
+    padding-left: 80px;
+    padding-top: 15px;
+    
+}
+.homecontent .text5 .btn2{
+    border-radius: 90px;
+    height:30px;
+    width:50px;
+    background-color: salmon;
+    color:white;
+    margin-top: 10px;
+    
+    
+}
+@media (maxwidth:100px){
+    .navbar .logo a{
+        font-size: 10px;
+        color: black;
+        font-weight: 500;
+    }
+
+}
